@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:in-range {
+            border: 1px solid green;
+        }
+        input:out-of-range {
+            border: 1px solid red;
+        }
+    </style>
+    <title>การปรับแต่ง Number</title>
+</head>
+<body>
+    <form id="form1"></form>
+    <label for="fullname">ชื่อ-สกุล :</label>
+    <input type="text" name="fullname" />
+    <label for="age">อายุ :</label>
+    <input type="number" name="age" min="1" max="130" />
+</form>
+</body>
+</html>
